@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('name')->nullable();
             $table->timestamps();
         });
-        Kepek::create(['title'=>'Kép 1', 'name'=>'kepek/_DSC3794.jpg']);
-        Kepek::create(['title'=>'Kép 1', 'name'=>'kepek/_DSC3707.jpg']);
+        Kepek::create(['title'=>'Tájkép', 'name'=>'kepek/kep.jpg']);
+        Kepek::create(['title'=>'Város', 'name'=>'kepek/varos.jpg']);
 
     }
 
